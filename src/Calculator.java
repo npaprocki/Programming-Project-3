@@ -3,6 +3,7 @@ import java.util.Stack;
 
 public class Calculator {
 
+	//this method was modifed from first site
 	// Function to return precedence of operators
 	public static int prec(char c) {
 
@@ -21,6 +22,7 @@ public class Calculator {
 		}
 	}
 
+	//this method was copied from first site
 	// Function to return associativity of operators
 	public static char associativity(char c) {
 
@@ -33,6 +35,7 @@ public class Calculator {
 		return 'L';
 	}
 
+	//this method was modifed from first site and starter code
 	public static String parse(String passedExpression) {
 
 		StringBuilder result = new StringBuilder();
